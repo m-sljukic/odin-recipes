@@ -1,6 +1,7 @@
 /* General styling */
 * {
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,9 +21,25 @@ a {
 }
 
 /* Class styling */
+#mainpage-navbar{
+    font-size: 32px;
+    background-color: #FC9400;
+}
 #container {
     border: 1px solid red;
     width: 500px;
+}
+.margherita-recipe{
+    padding: 20px;
+    font-size: 28px;
+}
+.content-card,
+.margherita-recipe {
+    background: crimson;
+    padding: 20px;
+    font-size: 28px;
+    color: white;
+    border: 2px solid black
 }
 
 .pizza-image {

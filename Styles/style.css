@@ -2,10 +2,13 @@
 * {
     line-height: 1.5;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #2286e4;
 }
 
 ul {
@@ -19,31 +22,39 @@ h1 {
 a {
     color: black
 }
+p {
+    padding: 10px;
+}
 
 /* Class styling */
 #mainpage-navbar{
     font-size: 32px;
-    background-color: #FC9400;
+    background-color: #ffffff;
+    padding: 20px;
 }
+
 #container {
-    border: 1px solid red;
+    border: 1px solid rgb(10, 6, 6);
     width: 500px;
 }
-.margherita-recipe{
-    padding: 20px;
-    font-size: 28px;
+.container {
+    width: 600px;
+    height: 100%;
+    margin: 20px auto;
 }
 .content-card,
 .margherita-recipe {
-    background: crimson;
+    background: rgb(172, 218, 236);
     padding: 20px;
     font-size: 28px;
-    color: white;
-    border: 2px solid black
+    color: rgb(73, 70, 70);
+    border: 2px solid black;
+    display: block;
 }
-
 .pizza-image {
-    width: 500px;
+  width: 450px;
+  padding: 20px;
+  margin: 10px auto;
 }
 
 .recipe-card {
@@ -51,9 +62,10 @@ a {
 }
 
 .recipe-card {
-    background-color: #FC9400;
-    color: white;
+    background-color: #87def8;
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    padding: 30px;
 }
 
 .recipe-content {
@@ -66,10 +78,18 @@ a {
 }
 
 .recipe-card.feature {
-    border: 2px solid red;
+    border: 2px solid rgb(7, 4, 4);
 }
 
 ul li h2,
 ol li {
     font-size: 16px;
+}
+.button {
+    padding: 5px 10px;
+    background-color: aqua;
+}
+.step {
+    padding: 25px;
+    margin-bottom: 10px;
 }

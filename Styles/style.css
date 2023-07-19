@@ -1,0 +1,48 @@
+/* General styling */
+* {
+    line-height: 1.5;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style: none;
+}
+h1{
+    color: black;
+}
+a{
+    color:black
+}
+
+/* Class styling */
+#container {
+    border: 1px solid red;
+    width: 500px;
+}
+.pizza-image {
+    width: 500px;
+}
+.recipe-card {
+    width: 500px;
+}
+.recipe-card {
+    background-color: #FC9400;
+    color: white;
+    text-decoration: none;
+}
+.recipe-content {
+    text-align: left;
+}
+.recipe-card h2, 
+.recipe-card a {
+    text-transform: uppercase;
+}
+.recipe-card.feature {
+    border: 2px solid red;
+}
+ul li h2,
+ol li{
+font-size: 16px;
+}
+
